@@ -14,9 +14,11 @@ public class Main {
         int M = scan.nextInt();
         System.out.println("Сколько растет X-деревьев в лесу?");
         int X = scan.nextInt();
+
         int value = 0;
         int weekendNikolay = K;
         int weekendFedor = M;
+
         for (int i = 1; i <= X; i++) {
             if (i != weekendNikolay)
                 value += A;
