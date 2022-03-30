@@ -3,17 +3,16 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
-        System.out.println("Сколько A-деревьев в день срубает Дмитрий?");
+        System.out.println("РЎРєРѕР»СЊРєРѕ A-РґРµСЂРµРІСЊРµРІ РІ РґРµРЅСЊ СЃСЂСѓР±Р°РµС‚ Р”РјРёС‚СЂРёР№?");
         int A = scan.nextInt();
-        System.out.println("Какой К-ый день отдыхает Дмитрий?");
+        System.out.println("РљР°РєРѕР№ Рљ-С‹Р№ РґРµРЅСЊ РѕС‚РґС‹С…Р°РµС‚ Р”РјРёС‚СЂРёР№?");
         int K = scan.nextInt();
-        System.out.println("Сколько B-деревьев в день срубает Федор?");
+        System.out.println("РЎРєРѕР»СЊРєРѕ B-РґРµСЂРµРІСЊРµРІ РІ РґРµРЅСЊ СЃСЂСѓР±Р°РµС‚ Р¤РµРґРѕСЂ?");
         int B = scan.nextInt();
-        System.out.println("Какой M-ый день отдыхает Федор?");
+        System.out.println("РљР°РєРѕР№ M-С‹Р№ РґРµРЅСЊ РѕС‚РґС‹С…Р°РµС‚ Р¤РµРґРѕСЂ?");
         int M = scan.nextInt();
-        System.out.println("Сколько растет X-деревьев в лесу?");
+        System.out.println("РЎРєРѕР»СЊРєРѕ СЂР°СЃС‚РµС‚ X-РґРµСЂРµРІСЊРµРІ РІ Р»РµСЃСѓ?");
         int X = scan.nextInt();
 
         int value = 0;
@@ -30,7 +29,7 @@ public class Main {
             else
                 weekendFedor += M;
             if (value >= X) {
-                System.out.println("Деревья будут вырублены за " + i + " дней");
+                System.out.println("Р”РµСЂРµРІСЊСЏ Р±СѓРґСѓС‚ РІС‹СЂСѓР±Р»РµРЅС‹ Р·Р° " + i + " РґРЅРµР№");
                 break;
             }
         }
